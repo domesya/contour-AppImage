@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/256x256/apps/org.contourterminal.Contour.pn
 export DESKTOP=/usr/share/applications/org.contourterminal.Contour.desktop
 export USE_HOST_DRIVERS_EXPERIMENTAL=1
 export URUNTIME_PRELOAD=1
+export STARTUPWMCLASS=org.contourterminal.Contour
 
 # Deploy dependencies
 quick-sharun /usr/sbin/contour
